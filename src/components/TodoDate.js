@@ -14,7 +14,7 @@ function TodoDate() {
   return (
     <div className={styles.date}>
       <div className={styles.calendar}>
-        <div data-testid='day' className={styles.day}>{date.dayDisplay}</div>
+        <div data-testid='day' className={styles.day}>🗓️{date.dayDisplay}</div>
         <div className={styles.my}>
           <div data-testid='month' className={styles.month}>{date.monthDisplay}</div>
           <div data-testid='year' className={styles.year}>{date.year}</div>

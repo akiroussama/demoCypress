@@ -6,7 +6,7 @@ function Header() {
 
   return (
     <header class={styles.header}>
-     🌄 Daily Todo List 🚀
+     🌄 Daily Todo List 
     </header>
   );
 }

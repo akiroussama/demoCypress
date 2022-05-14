@@ -15,12 +15,16 @@
     font-size: $item-font-size;
     outline: none;
   }
+  ::-webkit-input-placeholder {
+    color:  $font-additem-color;
+  }
   button {
     position: absolute;
     top: 20px;
     right: 20px;
     width: 30px;
     height: 30px;
+    color: $font-additem-color;
     background: no-repeat url("../img/plus.svg");
     border: none;
     &:after {

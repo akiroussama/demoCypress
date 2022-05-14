@@ -30,6 +30,7 @@ function Item({ item }) {
 
   return (
     <div data-testid='todo' className={styles.item} tabIndex="0">
+      <div style={{ width:50 }}> ⚒️ </div>
       <div className={styles.itemName}>{text}</div>
       <div
         className={`${styles.buttons} ${completed ? styles.completedButtons : ""}`}
